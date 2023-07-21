@@ -1,0 +1,53 @@
+.home-delivery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .shipment-box {
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px;
+    width: 800px;
+  }
+  
+  .shipment-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shipment-image img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .shipment-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0 10px;
+  }
+  
+  .item-name {
+    font-weight: bold;
+    flex-grow: 1; /* Take the remaining space */
+  }
+  
+  .item-price {
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .item-quantity {
+    text-align: right;
+  }
+  
+  .item-id,
+  .item-color {
+    margin: 5px 0;
+  }
+  .item-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

@@ -1,0 +1,22 @@
+.order-summary-box {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .order-summary-box h2 {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-transform:uppercase
+  }
+  .bolder{
+    font-weight: 900;
+    font-size: large;
+  }
+  

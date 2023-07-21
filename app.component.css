@@ -1,0 +1,45 @@
+.page-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  
+  .order-details-container,
+  .home-delivery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  
+  .home-delivery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  app-order-summary {
+    margin-right: 10px;
+    margin-top: 10px;
+    
+  }
+  @media (max-width: 500px) {
+   
+    .page-container {
+        grid-template-columns: 1fr;
+       
+    }
+    .home-delivery-container {
+      grid-template-columns: 1fr; /* Change to one column for mobile */
+    }
+  
+    /* Optionally, adjust the margins or padding for better mobile display */
+    app-order-summary {
+      margin-right: 10px; /* Remove margin for better mobile display */
+      margin-top: 0; /* Remove margin for better mobile display */
+      margin-left: 10px;
+    }
+    app-order-details{
+        margin-right: 10px;
+    }
+  }
+  
+ 
+  

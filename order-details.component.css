@@ -1,0 +1,57 @@
+.form-box {
+    position: relative;
+    border-radius: 5px;
+    background-color: #D3D3D3;
+    padding: 30px;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form-field label {
+    font-weight: bold;
+    opacity: 0.5;
+  }
+  
+  .form-field input,
+  .form-field textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-field textarea {
+    resize: vertical;
+  }
+  .form-toggle {
+    display: none;
+  }
+  
+  /* Styles for mobile screens */
+  @media screen and (max-width: 500px) {
+    .form-toggle {
+      display: block;
+      text-align: center;
+      padding: 5px 10px;
+      cursor: pointer;
+      font:bold;
+      font-weight: 800;
+      
+     
+    }
+  
+    .form-content {
+      display: none;
+    }
+  
+    .form-box.active .form-content {
+      display: block;
+      padding: 15px;
+    }
+    
+  }
+  
