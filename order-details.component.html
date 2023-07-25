@@ -1,22 +1,23 @@
-<div class="form-box" [class.active]="showForm">
+
+  <div class="form-box" [class.active]="showForm">
     <div class="form-toggle" (click)="toggleForm()">Click Here For Order Details</div>
     <div class="form-content">
       <div class="form-field">
         <label for="orderDate">Order Date</label>
-        <input type="date" id="orderDate" name="orderDate">
+        <input formControlName="orderDate" type="date" id="orderDate" name="orderDate">
       </div>
       <div class="form-field">
         <label for="orderNumber">Order Number</label>
-        <input type="text" id="orderNumber" name="orderNumber">
+        <input formControlName="orderNumber" type="text" id="orderNumber" name="orderNumber">
       </div>
       <div class="form-field">
         <label for="paymentMethod">Payment Method</label>
-        <input type="text" id="paymentMethod" name="paymentMethod">
+        <input formControlName="paymentMethod" type="text" id="paymentMethod" name="paymentMethod">
       </div>
       <div class="form-field">
-        <label for="billingAddress">Billing Address</label>
-        <textarea id="billingAddress" name="billingAddress" rows="4"></textarea>
+        <label for="billingAddress">Billing Address</label> 
+        <textarea formControlName="billingAddress" id="billingAddress" name="billingAddress" rows="4"></textarea>
       </div>
     </div>
   </div>
-  
+
