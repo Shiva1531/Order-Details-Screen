@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
   }
   
   .shipment-box {
@@ -14,6 +15,7 @@
   .shipment-info {
     display: flex;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
   }
   
   .shipment-image img {
@@ -26,20 +28,24 @@
     flex-direction: column;
     flex-grow: 1;
     padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
   }
   
   .item-name {
     font-weight: bold;
     flex-grow: 1; /* Take the remaining space */
+    font-family: 'Roboto', sans-serif;
   }
   
   .item-price {
     font-weight: bold;
     text-align: right;
+    font-family: 'Roboto', sans-serif;
   }
   
   .item-quantity {
     text-align: right;
+    font-family: 'Roboto', sans-serif;
   }
   
   .item-id,
@@ -51,13 +57,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
   }
   .shipment{
     opacity:0.75;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
   }
   .plan-details{
     color:black;
     opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
   }
   
