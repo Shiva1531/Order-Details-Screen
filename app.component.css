@@ -20,7 +20,20 @@
     margin-top: 10px;
     
   }
-  @media (max-width: 500px) {
+  .home-delivery-header {
+    display: flex;
+    align-items: baseline;
+  }
+  .home-delivery-header h2 {
+    margin-right: 10px;
+  }
+  .home-delivery-header h4 {
+    margin: 0;
+  }
+  .shipmentdata{
+    opacity: 0.5;
+  }
+  @media (max-width: 768px) {
    
     .page-container {
         grid-template-columns: 1fr;
