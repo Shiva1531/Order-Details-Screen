@@ -18,8 +18,10 @@ describe('OrderDetailsComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-  it('should collapse when user clicks', ()=>{
-    component.toggleForm()
+  it('should toggle form visibility on click', () => {
+    component.toggleForm();
     expect(component.showForm).toBeTruthy();
-  })
+    component.toggleForm();
+    expect(component.showForm).toBeFalsy();
+  });
 });
