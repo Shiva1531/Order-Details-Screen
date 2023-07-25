@@ -3,17 +3,20 @@
     border-radius: 5px;
     background-color: #D3D3D3;
     padding: 30px;
+  font-family: 'Roboto', sans-serif;
   }
   
   .form-field {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
   }
   
   .form-field label {
     font-weight: bold;
     opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
   }
   
   .form-field input,
@@ -22,13 +25,16 @@
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
   }
   
   .form-field textarea {
     resize: vertical;
+    font-family: 'Roboto', sans-serif;
   }
   .form-toggle {
     display: none;
+    font-family: 'Roboto', sans-serif;
   }
   
   /* Styles for mobile screens */
@@ -40,6 +46,7 @@
       cursor: pointer;
       font:bold;
       font-weight: 800;
+      font-family: 'Roboto', sans-serif;
       
      
     }
