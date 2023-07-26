@@ -33,7 +33,7 @@
   
   .item-name {
     font-weight: bold;
-    flex-grow: 1; /* Take the remaining space */
+    flex-grow: 1; 
     font-family: 'Roboto', sans-serif;
   }
   
